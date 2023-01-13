@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tour">زيارة</string>
+    <string name="contact">اتصال</string>
+    <string name="en_date">۰۸/۰۱/۲۰۲۰</string>
+    <string name="en_address">شارع حامد المتفرع من شارع اسلام</string>
+    <string name="en_b_bth">۸ح ۸غ</string>
+    <string name="en_area">م۱۲۰</string>
+    <string name="en_price">ج۸۲۰۲</string>
+    <string name="image">صوره</string>
+    <string name="done">تم</string>
+    <string name="rent">ايجار</string>
+    <string name="buy">شراء</string>
+    <string name="title">عنوان</string>
+    <string name="max">اقصى</string>
+    <string name="min">ادنى</string>
+    <string name="overview">ملخص</string>
+    <string name="features">مزايا</string>
+    <string name="type">النوع</string>
+    <string name="room">الغرف</string>
+    <string name="price">السعر</string>
+    <string name="area">المساحه</string>
+    <string name="search">بحث</string>
+    <string name="enter_an_location_city_or_zip_code">ادخل العنوان او المدينه او الرمز البريدي</string>
+    <string name="personal">شخصيا</string>
+    <string name="video_call">مكالمه فيديو</string>
+    <string name="request">طلب</string>
+    <string name="create_account">انشاء حساب</string>
+    <string name="google">جوجل+</string>
+    <string name="facebook">فيسبوك</string>
+    <string name="i_already_have_an_account">لدي حساب بالفعل</string>
+    <string name="message">رساله</string>
+    <string name="phone">هاتف</string>
+</resources>

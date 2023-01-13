@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/recycler_list"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimaryDark" />
+    <Button
+        android:id="@+id/btn_ok_list"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_yellow"
+        android:text="@string/done"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+</LinearLayout>

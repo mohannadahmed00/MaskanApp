@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/background_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title_one_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/title"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layoutDirection="ltr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_min_one_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/min"
+            android:autofillHints="max"
+            android:inputType="number" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!--<com.xw.repo.BubbleSeekBar
+            android:id="@+id/rs_range_one_range"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:bsb_max="100"
+            app:bsb_min="0"/>-->
+
+        <EditText
+            android:id="@+id/et_max_one_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/max"
+            android:autofillHints="max"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <me.bendik.simplerangeview.SimpleRangeView
+        android:id="@+id/rs_range_one_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:activeLineThickness="3dp"
+        app:lineThickness="3dp"
+        app:minDistance="2"
+        app:movable="true"
+        app:showActiveTicks="false"
+        app:showTicks="false" />
+
+    <Button
+        android:id="@+id/btn_ok_one_range"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_yellow"
+        android:text="@string/done"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
